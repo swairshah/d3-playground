@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src="d3.js"></script>
+<script src="jsnetworkx.js"></script>
+<script type='text/javascript' id='lt_ws' src='http://localhost:5678/socket.io/lighttable/ws.js'></script>
+<!--script type=text/javascript src="./graph.js"> </script-->
+<style>
+
+.link {
+  stroke: #aaa;
+}
+
+.node text {
+stroke:#333;
+cursos:pointer;
+}
+
+.node circle{
+stroke:#fff;
+stroke-width:3px;
+fill:#555;
+}
+
+</style>
+<body>
+    <svg width="480" height="640" id="canvas"> </svg>
+</body>
+
